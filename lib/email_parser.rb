@@ -9,6 +9,8 @@ class EmailAddressParser
   @name = name
   @csv = csv
   
-  
+  def parse 
+    
+  end
   
 end
