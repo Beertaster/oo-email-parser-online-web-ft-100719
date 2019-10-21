@@ -4,7 +4,10 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  attr_accessor :name, :CSV
+  attr_accessor :name, :csv
+  
+  @name = name
+  @csv = csv
   
   
   
