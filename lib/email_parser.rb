@@ -6,8 +6,10 @@
 class EmailAddressParser
   attr_accessor :name, :csv
   
-  @name = name
-  @csv = csv
+  def initialize(csv)
+    @name = name
+    @csv = csv
+  end
   
   def parse 
     csv.split.collect do |address|
